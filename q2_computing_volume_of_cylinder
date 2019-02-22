@@ -1,0 +1,15 @@
+# C reads in the radius and length of a cylinder and computes its volume using the following formulae:
+# area = radius * radius * pi
+# volume = area * length
+
+
+from math import pi
+
+Radius = int(input("Enter radius: "))
+Length = int(input("Enter length: "))
+
+Area = Radius * Radius * pi
+print(Area)
+
+Volume = Area * Length
+print(Volume)
