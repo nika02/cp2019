@@ -3,7 +3,6 @@
 # it to Celsius and displays the result in standard output.
 # The formula for the conversion is as follows: celsius = (5/9) * (fahrenheit - 32)
 
-Input = input("Enter Fahrenheit: ")
-Fahrenheit = int(Input)
+Fahrenheit = int(input("Enter Fahrenheit: "))
 Celsius = (5/9) * (round(Fahrenheit, 2) - 32)
 print(Celsius)
