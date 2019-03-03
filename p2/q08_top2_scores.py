@@ -1,5 +1,5 @@
-# Write a program that reads an integer and displays all its smallest factors.
-# For example, if the input integer is 120, the output should be as follows: 2, 2, 2, 3, 5.
+# Write a program that prompts the user to enter the number of students and each student's name and score,
+# and finally displays the student with the highest score and the student with the second-highest score.
 
 num = int(input("Enter number of students: "))
 class_dict = {}
